@@ -1,4 +1,4 @@
-package com.liyunlong.rxhelper.rxjava;
+package com.henley.rxhelper.rxjava;
 
 import java.util.concurrent.atomic.AtomicReference;
 
@@ -10,7 +10,7 @@ import io.reactivex.disposables.Disposable;
 /**
  * 基于Observable的观察者基类
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/5/24 17:51
  */
 public class BaseObserver<T> extends AtomicReference<Disposable> implements Observer<T>, Disposable {

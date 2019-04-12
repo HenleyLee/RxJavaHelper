@@ -1,4 +1,4 @@
-package com.liyunlong.rxhelper.rxbinding;
+package com.henley.rxhelper.rxbinding;
 
 import android.support.annotation.NonNull;
 import android.support.v4.view.ViewPager;
@@ -17,8 +17,8 @@ import com.jakewharton.rxbinding2.support.v4.widget.RxSlidingPaneLayout;
 import com.jakewharton.rxbinding2.support.v4.widget.RxSwipeRefreshLayout;
 import com.jakewharton.rxbinding2.view.MenuItemActionViewEvent;
 import com.jakewharton.rxbinding2.view.ViewScrollChangeEvent;
-import com.liyunlong.rxhelper.rxjava.BaseObserver;
-import com.liyunlong.rxhelper.rxjava.RxJavaHelper;
+import com.henley.rxhelper.rxjava.BaseObserver;
+import com.henley.rxhelper.rxjava.RxJavaHelper;
 
 import io.reactivex.Observable;
 import io.reactivex.disposables.Disposable;
@@ -26,7 +26,7 @@ import io.reactivex.disposables.Disposable;
 /**
  * rxbinding-support-v4辅助类
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/7/12 18:07
  */
 public class RxV4Helper {

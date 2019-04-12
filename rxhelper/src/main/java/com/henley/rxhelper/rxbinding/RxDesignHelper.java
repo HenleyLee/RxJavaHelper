@@ -1,4 +1,4 @@
-package com.liyunlong.rxhelper.rxbinding;
+package com.henley.rxhelper.rxbinding;
 
 import android.support.annotation.NonNull;
 import android.support.design.widget.AppBarLayout;
@@ -16,8 +16,8 @@ import com.jakewharton.rxbinding2.support.design.widget.RxNavigationView;
 import com.jakewharton.rxbinding2.support.design.widget.RxSnackbar;
 import com.jakewharton.rxbinding2.support.design.widget.RxSwipeDismissBehavior;
 import com.jakewharton.rxbinding2.support.design.widget.RxTabLayout;
-import com.liyunlong.rxhelper.rxjava.BaseObserver;
-import com.liyunlong.rxhelper.rxjava.RxJavaHelper;
+import com.henley.rxhelper.rxjava.BaseObserver;
+import com.henley.rxhelper.rxjava.RxJavaHelper;
 
 import io.reactivex.Observable;
 import io.reactivex.disposables.Disposable;
@@ -25,7 +25,7 @@ import io.reactivex.disposables.Disposable;
 /**
  * rxbinding-design辅助类
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/7/12 18:37
  */
 public class RxDesignHelper {

@@ -1,4 +1,4 @@
-package com.liyunlong.rxhelper.rxbinding;
+package com.henley.rxhelper.rxbinding;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -10,8 +10,8 @@ import com.jakewharton.rxbinding2.support.v7.widget.RecyclerViewChildAttachState
 import com.jakewharton.rxbinding2.support.v7.widget.RecyclerViewScrollEvent;
 import com.jakewharton.rxbinding2.support.v7.widget.RxRecyclerView;
 import com.jakewharton.rxbinding2.support.v7.widget.RxRecyclerViewAdapter;
-import com.liyunlong.rxhelper.rxjava.BaseObserver;
-import com.liyunlong.rxhelper.rxjava.RxJavaHelper;
+import com.henley.rxhelper.rxjava.BaseObserver;
+import com.henley.rxhelper.rxjava.RxJavaHelper;
 
 import io.reactivex.Observable;
 import io.reactivex.disposables.Disposable;
@@ -19,7 +19,7 @@ import io.reactivex.disposables.Disposable;
 /**
  * rxbinding-recyclerview辅助类
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/7/12 18:49
  */
 public class RxRecycleViewHelper {

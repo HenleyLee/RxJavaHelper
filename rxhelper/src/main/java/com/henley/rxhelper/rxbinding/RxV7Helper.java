@@ -1,4 +1,4 @@
-package com.liyunlong.rxhelper.rxbinding;
+package com.henley.rxhelper.rxbinding;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.ActionMenuView;
@@ -13,8 +13,8 @@ import com.jakewharton.rxbinding2.support.v7.widget.RxPopupMenu;
 import com.jakewharton.rxbinding2.support.v7.widget.RxSearchView;
 import com.jakewharton.rxbinding2.support.v7.widget.RxToolbar;
 import com.jakewharton.rxbinding2.support.v7.widget.SearchViewQueryTextEvent;
-import com.liyunlong.rxhelper.rxjava.BaseObserver;
-import com.liyunlong.rxhelper.rxjava.RxJavaHelper;
+import com.henley.rxhelper.rxjava.BaseObserver;
+import com.henley.rxhelper.rxjava.RxJavaHelper;
 
 import io.reactivex.Observable;
 import io.reactivex.disposables.Disposable;
@@ -22,7 +22,7 @@ import io.reactivex.disposables.Disposable;
 /**
  * rxbinding-appcompat-v7辅助类
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/7/12 18:30
  */
 public class RxV7Helper {

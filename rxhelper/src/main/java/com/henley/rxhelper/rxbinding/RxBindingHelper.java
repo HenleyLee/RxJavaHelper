@@ -1,4 +1,4 @@
-package com.liyunlong.rxhelper.rxbinding;
+package com.henley.rxhelper.rxbinding;
 
 import android.os.Build;
 import android.support.annotation.NonNull;
@@ -41,8 +41,8 @@ import com.jakewharton.rxbinding2.widget.SearchViewQueryTextEvent;
 import com.jakewharton.rxbinding2.widget.TextViewAfterTextChangeEvent;
 import com.jakewharton.rxbinding2.widget.TextViewBeforeTextChangeEvent;
 import com.jakewharton.rxbinding2.widget.TextViewTextChangeEvent;
-import com.liyunlong.rxhelper.rxjava.BaseObserver;
-import com.liyunlong.rxhelper.rxjava.RxJavaHelper;
+import com.henley.rxhelper.rxjava.BaseObserver;
+import com.henley.rxhelper.rxjava.RxJavaHelper;
 
 import java.util.concurrent.TimeUnit;
 
@@ -52,7 +52,7 @@ import io.reactivex.disposables.Disposable;
 /**
  * RxView辅助类
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/7/12 15:49
  */
 public class RxBindingHelper {

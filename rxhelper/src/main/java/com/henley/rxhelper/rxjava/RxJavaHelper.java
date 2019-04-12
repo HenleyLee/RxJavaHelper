@@ -1,4 +1,4 @@
-package com.liyunlong.rxhelper.rxjava;
+package com.henley.rxhelper.rxjava;
 
 
 import org.reactivestreams.Publisher;
@@ -24,7 +24,7 @@ import io.reactivex.schedulers.Schedulers;
 /**
  * RxJava辅助类
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/3/3 11:38
  */
 public class RxJavaHelper {
@@ -152,8 +152,8 @@ public class RxJavaHelper {
      */
     public static Disposable timer(long delay, TimeUnit unit, BaseObserver<Long> observer) {
         Observable<Long> observable = Observable.timer(delay, unit)
-                .unsubscribeOn(Schedulers.io()) // 取消订阅
-                .subscribeOn(Schedulers.io()) // 指定上游发送事件的线程(只有第一次指定有效)
+                .unsubscribeOn(Schedulers.computation()) // 取消订阅
+                .subscribeOn(Schedulers.computation()) // 指定上游发送事件的线程(只有第一次指定有效)
                 .observeOn(AndroidSchedulers.mainThread());// 指定下游接收事件的线程(每次指定都有效)
         return subscribe(observable, observer);
     }
@@ -179,8 +179,8 @@ public class RxJavaHelper {
      */
     public static Disposable interval(long delay, long interval, TimeUnit unit, BaseObserver<Long> observer) {
         Observable<Long> observable = Observable.interval(delay, interval, unit)
-                .unsubscribeOn(Schedulers.io()) // 取消订阅
-                .subscribeOn(Schedulers.io()) // 指定上游发送事件的线程(只有第一次指定有效)
+                .unsubscribeOn(Schedulers.computation()) // 取消订阅
+                .subscribeOn(Schedulers.computation()) // 指定上游发送事件的线程(只有第一次指定有效)
                 .observeOn(AndroidSchedulers.mainThread());// 指定下游接收事件的线程(每次指定都有效)
         return subscribe(observable, observer);
     }

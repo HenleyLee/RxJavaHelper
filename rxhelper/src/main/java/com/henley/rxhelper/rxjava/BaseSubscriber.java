@@ -1,4 +1,4 @@
-package com.liyunlong.rxhelper.rxjava;
+package com.henley.rxhelper.rxjava;
 
 import org.reactivestreams.Subscription;
 
@@ -12,7 +12,7 @@ import io.reactivex.internal.subscriptions.SubscriptionHelper;
 /**
  * 基于Flowable的观察者基类
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/5/24 11:42
  */
 public class BaseSubscriber<T> extends AtomicReference<Subscription> implements FlowableSubscriber<T>, Subscription, Disposable {
